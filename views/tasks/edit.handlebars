@@ -1,12 +1,13 @@
-<h1>Tasks creation</h1>
+<h1>Editing task: {{task.title}}</h1>
 <form action="/tasks/add" method="POST">
+<input type="hidden" name="id" value="{{this.id}}">
     <div class="form-control">
         <label for="title">Title: </label>
         <input type="text" name="title" placeholder="What you will do?">
     </div>
     <div class="form-control">
         <label for="description">Description: </label>
-        <textarea name="description" placeholder="Describle task"></textarea>
+        <textarea name="description" placeholder="Describle task">{{this.description}}</textarea>
     </div>
-    <input type="submit" value="Create">
+    <input type="submit" value="Edit">
 </form>
