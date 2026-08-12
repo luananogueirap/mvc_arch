@@ -108,3 +108,8 @@ form input[type='submit'] {
     border: none;
     cursor: pointer;
 }
+
+.title.done{
+  text-decoration: line-through;
+  color: #ccc;
+}
