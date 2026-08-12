@@ -12,7 +12,7 @@ const Task = db.define('Task', {
         required: true
     },
     done:{
-        type: DataTypes.STRING,
+        type: DataTypes.BOOLEAN,
         required: true
     },
 })
