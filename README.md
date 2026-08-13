@@ -15,4 +15,4 @@ Tech Stack
 
 How to Run
 
-Before running the project, make sure you have MySQL and XAMPP installed on your machine. Start the server using `npm start` (or `npm dev`) and open `localhost` in your browser.
+Before running the project, make sure you have MySQL or XAMPP installed on your machine. Start the server using `npm start` (or `npm dev`) and open `localhost` in your browser.
